@@ -1,0 +1,153 @@
+* {
+  padding: 0px;
+  margin: 0px;  
+}
+
+/* Start http://www.cursors-4u.com */
+body, a:hover {
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress !important;
+}
+/* End http://www.cursors-4u.com */
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2980b9+0,2c3e50+100 */
+  background: #2980b9; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #2c3e50 0%, #2980b9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #2c3e50 0%,#2980b9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #2c3e50 0%,#2980b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', endColorstr='#2980b9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  overflow: hidden;       
+}
+
+.hidden-top {
+  top: -100vh!important;
+}
+
+.hidden-bottom {
+  top: 200vh!important;
+}
+
+.panel {
+  position: relative;
+  color: #cecece;
+  font-family: 'Iceland', cursive;
+}
+
+.panel h2 {
+  font-size: 10vmin;
+  margin-bottom: 2vmin;
+}
+
+.panel a {
+  font-size: 4vmin;
+  margin-top: 3vmin;
+}
+
+.middle {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center; 
+}
+
+.page {
+  position: absolute;  
+  width: 62vmin; 
+  height: 62vmin;
+  transition: all 500ms;
+}
+
+.start h1 {
+  font-size: 15vmin;
+}
+
+.start a {
+  font-size: 2vmin;
+}
+
+.start a:hover {
+  text-decoration: underline;
+}
+
+.side-select h2 {
+  margin-bottom: 10vmin;
+}
+
+.side-select a {
+  font-size: 10vmin;
+  padding: 2vmin 5vmin;
+  border: 10px solid #cecece;
+  border-radius: 25%;
+  margin: 3vmin;
+  background: transparent;
+  transition: all 400ms;
+}
+
+.side-select a:hover {
+  background: rgba(206, 206, 206, 0.2);
+  transition: all 400ms;
+}
+
+button {
+  padding: 2vmin 6vmin;
+  color: #cecece;
+  font-family: 'Iceland', cursive;
+  font-size: 4.5vmin;
+  border: 5px solid #cecece;
+  border-radius: 20%;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: transparent;
+  transition: all 400ms;
+  margin-top: 2vmin;
+  margin-bottom: 2vmin;
+}
+
+button:hover {
+  background: rgba(206, 206, 206, 0.2);
+  transition: all 400ms;
+}
+
+.game {
+  display: table;
+  border-collapse: collapse;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  height: 20vmin;
+  width: 20vmin;
+  font-size: 10vmin;
+  font-family: 'Iceland', cursive;
+  color: #cecece; 
+}
+
+.cell:hover {
+  background-color: rgba(0, 121, 179, 0.3);
+  color: rgba(206, 206, 206, 0.43);
+}
+
+.vSides {
+  border-left: 1vmin solid #0079b3;
+  border-right: 1vmin solid #0079b3;
+}
+
+.hSides {
+  border-top: 1vmin solid #0079b3;
+  border-bottom: 1vmin solid #0079b3;
+}
